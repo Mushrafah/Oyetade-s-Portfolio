@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -47,6 +48,12 @@ a:hover {
   left: 555px;
   color: white;
   text-shadow: 1px 1px 5px orange;
+}
+
+.pngimg {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 h2 p {
