@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #242526;
+  color: white;
+  font-weight: bold;
+  font-family: Tahoma;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+}
+
+.navi {
+  background-color: #242526;
+  margin: 20px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(111, 198, 224);
+}
+
+.artist {
+  padding-top: 59px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(15, 125, 158);
+  position: relative;
+}
+
+.onimg {
+  font-size: 30px;
+  position: absolute;
+  top: 300px;
+  left: 555px;
+  color: white;
+  text-shadow: 1px 1px 5px orange;
+}
+
+h2 p {
+  display: block;
+}
+
+.section2 {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: white;
+  padding-top: 20px;
+}
+
+.sect3 {
+  text-align: center;
+  background-color: white;
+  padding-top: 30px;
+  font-size: 23px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-style: none;
+  border: 0;
+  border-radius: 2px;
+}
+
+button:hover {
+  color: rgb(177, 165, 165);
+}
+
+.sect4 {
+  background-color: #242526;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  line-break: loose;
+}
+
+.planet {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.bolden1 {
+  font-size: 35px;
+}
+
+.bolden2 {
+  font-size: 25px;
+}
+
+footer {
+  background-color: #242526;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+@media (max-width: 400px) {
+  .onimg {
+    color: transparent;
+    width: 400px;
+    text-shadow: none;
+  }
+
+  * {
+    width: 400px;
+  }
+
+  .download {
+  }
+}
