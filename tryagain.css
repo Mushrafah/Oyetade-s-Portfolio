@@ -1,5 +1,5 @@
 * {
-  width: 400px;
+  width: auto;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -121,11 +121,14 @@ footer {
   padding-top: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 991.98px) {
   .onimg {
-    color: transparent;
-    width: 400px;
-    text-shadow: none;
+    display: none;
   }
-
-  
+  .myTunesImg {
+    width: 30rem;
+  }
+  .image {
+    width: fit-content;
+  }
+}
